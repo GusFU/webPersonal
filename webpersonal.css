@@ -1,0 +1,30 @@
+body {
+    background-image: url("psicobloke1.jpg");
+    background-size: cover;
+}
+
+
+p {
+    background: white
+}
+
+.logo {
+    position: relative;
+    left: 100px;
+}
+
+.titulo {
+    position: relative;
+    bottom: 60px;
+    background: white;
+    width: 450px;
+    margin: 0 auto;
+}
+
+.destacado {
+    color: blue
+}
+
+.youtube {
+    color: red
+}
