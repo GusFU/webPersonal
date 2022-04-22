@@ -1,36 +1,91 @@
+
 body {
+    font-family:'PT sans', Times, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.3em;
     background-image: url("psicobloke1.jpg");
     background-size: cover;
     background-attachment: fixed;
+    flex-basis: 0;
+    flex-wrap: 999;
+    
 }
-
-
-h1.titulo {
-    border: 1px dotted #f00;
-    padding: 8px;
-    color: red;
-    position: relative;
-    bottom: 60px;
+/*aqui empieza el estilo de encabezado*/
+img.logo1 {
+    margin: 1rem;
+}
+.container {
+    width: 85%;
+    
+   
+    
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.menu {
     background: black;
-    width: 450px;
-    margin: 0 auto;
-}
-
-
-p {
-    text-align:center;
-    border: 1px dotted #f00;
-    padding: 8px;
     color: red;
-    position: relative;
-    background: black;
-    margin: 0 auto;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 500;
+
+
+}
+.menu a {
+    color: red;
+    text-decoration: none;
+}
+.menu1 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu1 ul li {
+    display: inline-block;
+}
+.menu1 ul li a {
+    
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    border-radius: 4px;
+}
+.menu1 ul li a:hover {
+    background-color: dimgrey;
+}
+#actual  {
+    color: aqua;
+}
+/* aqui acaba el estilo del encabezado
+y le hago el padin al main que contiene las secciones para que no quede debajo del encabezado */
+.bajar {
+    margin-top: 14rem;
 }
 
-.logo {
+
+
+
+div.parrafos {
     position: relative;
-    left: 100px;
+    text-align: center;
+   width: 70%;
+    margin: 1.5em;
+    border: 1px dotted #f00;
+    color: red;
+    background: black;
+    
+
+    
 }
+
+
+
 .destacado {
     color: blue
 }
@@ -38,18 +93,70 @@ p {
 .youtube {
     color: red
 }
+
+
+img.imgprincipal {
+   width: 70%;
+    margin: 1.5em;
+}
+
+
+.fotoen {
+    width: 70%;
+    padding: 20px 20px;
+    background: black;
+    border-radius: 5px;
+    line-height: 1.5;
+    box-shadow: grey;
+    color: red;
+    line-height: 60px;
+    font-style: oblique;
+
+}
+.fotoen img{
+    border-radius: 5px;
+    float: left;
+    margin-right: 5px;
+}
+.fotoen1 {
+    margin-top: 2rem;
+    width: 70%;
+    padding: 20px 20px;
+    background: black;
+    border-radius: 5px;
+    line-height: 1.5;
+    box-shadow: grey;
+    color: red;
+    line-height: 60px;
+    font-style: oblique;
+
+}
+.fotoen1 img{
+    border-radius: 5px;
+    float: right;
+    margin-right: 5px;
+}
+
+
+
+
+
+
 .publicidad1 {
-    width: 200px;
-    height: 100px;
-    border: 1px dotted red;
+    position: fixed;
+    width: 20%;
+    right: 0%;
+    top: 30%;
+    margin: 1em;
+    
+    
 }
+
 .publicidad2 {
-    position: relative;
-    width: 200px;
-    left: 200px;
-    bottom: 100px;
-    border: 1px dotted red;
-}
-img {
-    border: 3px double red;
+    position: fixed;
+    width: 20%;
+    right: 0%;
+    top: 48%;
+    margin: 1em;
+    
 }

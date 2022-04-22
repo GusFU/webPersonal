@@ -6,41 +6,56 @@
     <title>Escalada Gus</title>
     <link rel="stylesheet" type="text/css" href="webpersonal.css" />
     <link rel="icon" type="image/png" href="favicon-32.png">
- 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <img class="logo" src="logo.png" width="200" />
-        <h1 class="titulo">TODO SOBRE LA ESCALADA</h1>
+    <!--aqui empieza la cabecera de la pagina-->
+    <header class="menu">
+        <div class="container logo-nav-container">
+            <img class="logo1" src="logo.png" width="200"/>
+        <nav class="menu1">
+            
+            <ul>
+                <li> <a id="actual" href="index.html">INICIO</a></li>
+                <li>
+                    <a href="biografia.html">HISTORIA</a></li>
+                <li>
+                    <a href="portfolio.html">COMPETICIONES</a></li>
+                <li> 
+                    <a href="contacto.html">ZONAS EN ESPAÑA</a>
+                    
+                </li>
+            </ul>
+        </nav>
+        </div>
     </header>
-    <nav>
-        <a href="index.html">
-            <h2 class="destacado">INICIO</h2>
-        </a>
-        <a href="biografia.html">
-            <h3>HISTORIA</h3>
-        </a>
-        <a href="portfolio.html">
-            <h3>COMPETICIONES</h3>
-        </a>
-        <a href="contacto.html">
-            <h3>ZONAS EN ESPAÑA</h3>
-        </a>
-    </nav>
-    <section>
+    <!--aqui acaba la cabecera de la pagina
+    hago el bajar para poder ponerle un padding top que haga que lo de mas arriba de la secion no quede tapado por la cabecera-->
+    
+    <section class="bajar">
+        <div class=parrafos>
         <h4>BIENVENIDOS A ESCALADA GUS</h4>
         <p>En este rincon de internet os acercaremos un poco al mundo de la escalada, aqui podreis saber su historia,
             que competiciones hay y las mejores zonas de España en las que practicar vuestro deporte favorito</p>
+        </div>
+        <img class="imgprincipal" src="principal.webp" />
     </section>
-    <aside>
+    
+    <!--en el aside pondre enlaces de publicidad-->
+        <aside>
         <a title="SOLO CLIMB"
             href="https://soloclimb.es/tienda/es/31-material-de-escalada-y-accesorios?page=2&gclid=CjwKCAjwu_mSBhAYEiwA5BBmf0AkYaNCfDGFN1vHd3SUUJkvAZmqyXvzz8HTuSm4vAt2tiIsqOm_URoC6xwQAvD_BwE"><img
                 class="publicidad1" src="publicidad1.jpg" alt="SOLO CLIMB" /></a>
         <br>
         <a title="CAMPZ" href="https://www.campz.es/escalada/"><img class="publicidad2" src="publicidad2.svg"
                 alt="CAMPZ" /></a>
+       
     </aside>
+<!--en el footer pondre formas de contactar-->
     <footer>
         <form>
             <label>Nombre: <input type="text" name="nombre" /></label>

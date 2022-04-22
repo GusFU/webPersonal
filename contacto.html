@@ -6,28 +6,35 @@
     <title>Escalada Gus</title>
     <link rel="stylesheet" type="text/css" href="webpersonal.css"/>
     <link rel="icon" type="image/png" href="favicon-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <img src="logo.png" width="200" />
-        <h1>TODO SOBRE LA ESCALADA</h1>
+     <!--aqui empieza la cabecera de la pagina-->
+    <header class="menu">
+        <div class="container logo-nav-container">
+            <img class="logo1" src="logo.png" width="200"/>
+        <nav class="menu1">
+            
+            <ul>
+                <li> <a href="index.html">INICIO</a></li>
+                <li>
+                    <a href="biografia.html">HISTORIA</a></li>
+                <li>
+                    <a href="portfolio.html">COMPETICIONES</a></li>
+                <li> 
+                    <a id="actual" href="contacto.html">ZONAS EN ESPAÑA</a>
+                   
+                </li>
+            </ul>
+        </nav>
+        </div>
     </header>
-    <nav>
-        <a href="contacto.html">
-            <h2 class="destacado"><b>ZONAS DE ESPAÑA</b></h2>
-        </a>
-        <a href="index.html">
-            <h3>INICIO</h3>
-        </a>
-        <a href="biografia.html">
-            <h3>HISTORIA</h3>
-        </a>
-        <a href="portfolio.html">
-            <h3>COMPETICIONES</h3>
-        </a>
-
-    </nav>
+     <!--aqui acaba la cabecera de la pagina
+    hago el main para poder ponerle un pading top que haga que lo de mas arriba de la secion no quede tapado por la cabecera-->
+    <main class="main">
     <section>
         <h4>Zonas Madrid</h4>
         <article>
@@ -63,7 +70,7 @@
                 todas las partes del mundo, esconde una de las mejores escuelas de la península.</p>
         </article>
     </section>
-
+</main>
     <footer>
         <form>
             <label>Nombre: <input type="text" name="nombre" /></label>

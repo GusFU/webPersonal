@@ -6,31 +6,41 @@
     <title>Escalada Gus</title>
     <link rel="stylesheet" type="text/css" href="webpersonal.css"/>
     <link rel="icon" type="image/png" href="favicon-32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <img src="logo.png" width="200" />
-        <h1>TODO SOBRE LA ESCALADA</h1>
+    <!--aqui empieza la cabecera de la pagina-->
+    <header class="menu">
+        <div class="container logo-nav-container">
+            <img class="logo1" src="logo.png" width="200"/>
+        <nav class="menu1">
+            
+            <ul>
+                <li> <a href="index.html">INICIO</a></li>
+                <li>
+                    <a id="actual" href="biografia.html">HISTORIA</a></li>
+                <li>
+                    <a href="portfolio.html">COMPETICIONES</a></li>
+                <li> 
+                    <a href="contacto.html">ZONAS EN ESPAÑA</a>
+                    
+                </li>
+            </ul>
+        </nav>
+        </div>
     </header>
-    <nav>
-        <a href="biografia.html">
-            <h2 class="destacado"><b>HISTORIA</b></h2>
-        </a>
-        <a href="index.html">
-            <h3>INICIO</h3>
-        </a>
-        <a href="portfolio.html">
-            <h3>COMPETICIONES</h3>
-        </a>
-        <a href="contacto.html">
-            <h3>ZONAS EN ESPAÑA</h3>
-        </a>
-    </nav>
+     <!--aqui acaba la cabecera de la pagina
+    hago la clase bajar para poder ponerle un pading top que haga que lo de mas arriba de la secion no quede tapado por la cabecera-->
 
-    <section>
+    <!--las secciones llevaran fotos y parrafos-->
+    <section class="bajar">
         <article>
-            <h4>¿Como empezo todo?</h4>
+            
+            <div class="fotoen">
+            <img src="escaladamujer1.jpg" width="200" />
             <p>Para comprender la historia de la escalada, hay que saber que el ser humano siempre ha querido subir.
                 Subir más alto. Movido por la curiosidad por saber qué había ahí arriba. O para construir casas en
                 lugares altos para impedir ataques de sus enemigos. O en busca de alimento.
@@ -38,13 +48,14 @@
                 Por eso es tan difícil establecer cuál es el origen concreto sobre la historia de la escalada. Pero sí
                 que hay varios hitos reseñables que, uniéndolos, dan lugar a una evolución hasta llegar a la escalada
                 tal y como la conocemos hoy día.</p>
-            <img src="escaladamujer1.jpg" width="200" />
-            <h4>El primer precedente de la escalada</h4>
+                </div>
+            
+            <div class="fotoen1">
             <p>Antoine de Ville fue el primero en escalar una pared, el Mont Aiguille, en 1492. Son unos 300 metros de
                 ascensión vertical con una cima horizontal. Por aquel entonces era inaccesible, así que de Ville
                 construyó un andamio. Por eso no se considera escalada como tal. Pero sí creo un precedente en la
                 historia de la escalada que disparó las ganas de subir a lugares que antes parecían imposibles de
-                alcanzar.
+                alcanzar. <img src="escalada1.jpg" width="600" />
 
                 El primer hito en la historia de la escalada, el primer ascenso que se considera escalada como tal,
                 ocurrió en 1786 con el ascenso de Paccard al Mont Blanc. Benedict de Saussure quería conocer la altura
@@ -72,9 +83,9 @@
                 las paredes deja de ser una parte a salvar en la subida a picos para ser considerado un deporte en sí.
                 Lo importante ya no es llegar al pico, eso queda reservado para los alpinistas. Ahora, los escaladores
                 buscan salvar paredes.</p>
-            <img src="escalada1.jpg" width="200" />
-            <h4>Cambio de mentalidad: fundamental en la historia de la escalada</h4>
-            <p>Desafiar a lo vertical se transforma en un deporte llamado escalada. Ya no se intenta salvar una pared,
+           
+        </div>
+            <p class="fotoen">Desafiar a lo vertical se transforma en un deporte llamado escalada. Ya no se intenta salvar una pared,
                 se busca dominarla. Por eso, ya no era necesario subir a cumbres tan altas: ya no importaba qué altura
                 tuviese la pared.
 
@@ -95,9 +106,11 @@
     <aside>
         <a title="SOLO CLIMB"
             href="https://soloclimb.es/tienda/es/31-material-de-escalada-y-accesorios?page=2&gclid=CjwKCAjwu_mSBhAYEiwA5BBmf0AkYaNCfDGFN1vHd3SUUJkvAZmqyXvzz8HTuSm4vAt2tiIsqOm_URoC6xwQAvD_BwE"><img
-                src="publicidad1.jpg" alt="SOLO CLIMB" /></a>
+                class="publicidad1" src="publicidad1.jpg" alt="SOLO CLIMB" /></a>
         <br>
-        <a title="CAMPZ" href="https://www.campz.es/escalada/"><img src="publicidad2.svg" alt="CAMPZ" /></a>
+        <a title="CAMPZ" href="https://www.campz.es/escalada/"><img class="publicidad2" src="publicidad2.svg"
+                alt="CAMPZ" /></a>
+       
     </aside>
     <footer>
         <form>
