@@ -12,15 +12,16 @@ body {
 }
 /*aqui empieza el estilo de encabezado*/
 img.logo1 {
-    margin: 1rem;
+    margin-left: 2rem;
 }
-.container {
-    width: 85%;
+.menu1 {
+    
     
    
     
 }
-.logo-nav-container {
+.menu2 {
+    width: 85%;
     display: flex;
     justify-content: space-between;
     align-items: center ;
@@ -41,22 +42,22 @@ img.logo1 {
     color: red;
     text-decoration: none;
 }
-.menu1 ul {
+.menu3 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.menu1 ul li {
+.menu3 ul li {
     display: inline-block;
 }
-.menu1 ul li a {
+.menu3 ul li a {
     
     display: block;
     padding: 0.5rem 1rem;
     transition: all 0.3s linear;
     border-radius: 4px;
 }
-.menu1 ul li a:hover {
+.menu3 ul li a:hover {
     background-color: dimgrey;
 }
 #actual  {
@@ -74,14 +75,20 @@ y le hago el padin al main que contiene las secciones para que no quede debajo d
 div.parrafos {
     position: relative;
     text-align: center;
-   width: 70%;
+    width: 70%;
     margin: 1.5em;
     border: 1px dotted #f00;
     color: red;
     background: black;
-    
+    border-radius: 5px;
+    opacity: 0.9;
 
     
+}
+.parrafos h4 {
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
 }
 
 
@@ -91,7 +98,7 @@ div.parrafos {
 }
 
 .youtube {
-    color: red
+    color: rgb(4, 0, 255)
 }
 
 
@@ -111,12 +118,14 @@ img.imgprincipal {
     color: red;
     line-height: 60px;
     font-style: oblique;
+    opacity: 0.9;
 
 }
 .fotoen img{
     border-radius: 5px;
     float: left;
     margin-right: 5px;
+    opacity: 1;
 }
 .fotoen1 {
     margin-top: 2rem;
@@ -129,29 +138,112 @@ img.imgprincipal {
     color: red;
     line-height: 60px;
     font-style: oblique;
+    opacity: 0.9;
 
 }
 .fotoen1 img{
     border-radius: 5px;
     float: right;
     margin-right: 5px;
+        
 }
 
+.fotoen2 {
+    padding: 20px 20px;
+    background: #000000;
+    border-radius: 5px;
+    line-height: 1.5;
+    box-shadow: grey;
+    color: red;
+    line-height: 60px;
+    font-style: oblique;
+    opacity: 0.9;
+    text-align: center;
+    
+}
+.fotoen2 ul {
+    list-style: none;
+}
+
+.fotoen2 h4 {
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.fotoen3 {
+    width: 70%;
+    padding: 20px 20px;
+    background: black;
+    border-radius: 5px;
+    line-height: 1.5;
+    box-shadow: grey;
+    color: red;
+    line-height: 60px;
+    font-style: oblique;
+    opacity: 0.9;
+    max-width: 49%;
+    margin: 2px;
+}
+
+.fotoen3 img{
+    border-radius: 5px;
+    float: left;
+    margin-right: 5px;
+    opacity: 1;
+}
+    
+.fotoen4 {
+    width: 70%;
+    padding: 20px 20px;
+    background: black;
+    border-radius: 5px;
+    line-height: 1.5;
+    box-shadow: grey;
+    color: red;
+    line-height: 60px;
+    font-style: oblique;
+    opacity: 0.9;
+    max-width: 49%;
+    margin: 2px;
+}
+
+.fotoen4 img{
+    border-radius: 5px;
+    float: left;
+    margin-right: 5px;
+    opacity: 1;
+}
+.cuadricula{
+    display: flex;
+}
+.cuadricula .fotoen3{
+    float: left;
+}
+
+  
 
 
-
-
-
+.cuadricula h5{
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+}
+.centrarh4 h4 {
+    color: red;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    background: black;
+    opacity: 0.9;
+}
 .publicidad1 {
     position: fixed;
     width: 20%;
     right: 0%;
     top: 30%;
-    margin: 1em;
-    
-    
+    margin: 1em; 
 }
-
 .publicidad2 {
     position: fixed;
     width: 20%;
