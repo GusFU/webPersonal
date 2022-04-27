@@ -1,34 +1,21 @@
 body {
-    font-family: 'PT sans', Times, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.2rem;
     line-height: 1.3em;
     background-image: url("psicobloke1.jpg");
     background-size: cover;
     background-attachment: fixed;
-    flex-basis: 0;
-    flex-wrap: 999;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
 
 
 
 }
-
 /*aqui empieza el estilo de encabezado*/
 img.logo1 {
     margin-left: 2rem;
 }
-
-
-.menu2 {
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .menu {
+     font-family: 'PT sans', Times, sans-serif;
     background: black;
     color: red;
     padding: 2rem 0;
@@ -37,25 +24,25 @@ img.logo1 {
     top: 0;
     right: 0;
     z-index: 500;
-
-
 }
-
+.menu2 {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .menu a {
     color: red;
     text-decoration: none;
 }
-
 .menu3 ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 .menu3 ul li {
     display: inline-block;
 }
-
 .menu3 ul li a {
 
     display: block;
@@ -63,24 +50,17 @@ img.logo1 {
     transition: all 0.3s linear;
     border-radius: 4px;
 }
-
 .menu3 ul li a:hover {
     background-color: dimgrey;
 }
-
 #actual {
     color: aqua;
 }
-
 /* aqui acaba el estilo del encabezado
 y le hago el padin al main que contiene las secciones para que no quede debajo del encabezado */
 .bajar {
     margin-top: 14rem;
 }
-
-
-
-
 div.parrafos {
     position: relative;
     text-align: center;
@@ -91,39 +71,25 @@ div.parrafos {
     background: black;
     border-radius: 5px;
     opacity: 0.9;
-
-
 }
-
 .parrafos h4 {
     font-size: x-large;
     text-align: center;
     text-decoration: underline;
 }
-
 .parrafos img {
-
     width: 100%;
-
 }
-
-
-
 .destacado {
     color: blue
 }
-
 .youtube {
     color: rgb(4, 0, 255)
 }
-
-
 img.imgprincipal {
     width: 70%;
     margin: 1.5em;
 }
-
-
 .fotoen {
     width: 70%;
     padding: 20px 20px;
@@ -135,16 +101,13 @@ img.imgprincipal {
     line-height: 60px;
     font-style: oblique;
     opacity: 0.9;
-
 }
-
 .fotoen img {
     border-radius: 5px;
     float: left;
     margin-right: 5px;
 
 }
-
 .fotoen1 {
     margin-top: 2rem;
     width: 70%;
@@ -157,16 +120,12 @@ img.imgprincipal {
     line-height: 60px;
     font-style: oblique;
     opacity: 0.9;
-
 }
-
 .fotoen1 img {
     border-radius: 5px;
     float: right;
     margin-right: 5px;
-
 }
-
 .fotoen2 {
     padding: 20px 20px;
     background: #000000;
@@ -179,20 +138,15 @@ img.imgprincipal {
     opacity: 0.9;
     text-align: center;
     margin-bottom: 20px;
-
 }
-
 .fotoen2 ul {
     list-style: none;
 }
-
 .fotoen2 h4 {
     font-size: x-large;
     text-align: center;
     text-decoration: underline;
-
 }
-
 .fotoen3 {
     width: 70%;
     padding: 20px 20px;
@@ -206,14 +160,11 @@ img.imgprincipal {
     max-width: 49%;
     margin: 2px;
 }
-
 .fotoen3 img {
     border-radius: 5px;
     float: left;
     margin-right: 5px;
-
 }
-
 .fotoen4 {
     width: 70%;
     padding: 20px 20px;
@@ -225,33 +176,25 @@ img.imgprincipal {
     max-width: 49%;
     margin: 2px;
 }
-
 .fotoen4 img {
     border-radius: 5px;
     float: left;
     margin-right: 5px;
 }
-
 .cuadricula {
     display: flex;
     background: black;
     opacity: 0.9;
     margin-bottom: 20px;
 }
-
 .cuadricula .fotoen3 {
     float: left;
 }
-
-
-
-
 .cuadricula h5 {
     font-size: x-large;
     text-align: center;
     text-decoration: underline;
 }
-
 .centrarh4 h4 {
     color: red;
     font-size: x-large;
@@ -260,7 +203,6 @@ img.imgprincipal {
     background: black;
     opacity: 0.9;
 }
-
 .publicidad1 {
     position: fixed;
     width: 20%;
@@ -268,7 +210,6 @@ img.imgprincipal {
     top: 30%;
     margin: 1em;
 }
-
 .publicidad2 {
     position: fixed;
     width: 20%;
@@ -277,14 +218,6 @@ img.imgprincipal {
     margin: 1em;
 
 }
-
-footer {
-    background: #000000;
-    width: 100%;
-    color: #f00;
-    margin: auto;
-}
-
 .formulario {
     margin: 20px;
     padding: 10px;
@@ -292,30 +225,33 @@ footer {
     float: left;
     align-items: center;
     text-align: center;
-
 }
-
 .formulario label {
     justify-content: space-between;
     display: block;
 
 }
-
-
-div.redes {
-    float: right;
-    display: flex;
-    align-items: center;
-    text-align: center;
+footer {
+    background: #000000;
+    width: 100%;
+    color: #f00;
+    position: relative;
 }
-
+div.redes {
+    
+    position:relative;
+    left:  1200px;
+    width: 100%;
+}
 footer div.redes div {
     display: inline;
     margin: 4px;
     padding: 2px;
 }
-
 footer div img {
     width: 40px;
+}
 
+p.copi{
+    margin-left: 2rem;
 }
